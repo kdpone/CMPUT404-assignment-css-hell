@@ -1,0 +1,84 @@
+body {
+    background-color: rgb(231, 228, 201);
+    font-family: 'Mynerve', cursive;
+}
+
+h1 {
+    text-align: center;
+    font-size: 75px;
+    
+}
+
+h2,h3 {
+    text-align: center;
+}
+
+p {
+    margin-left: 5%;
+    margin-right: 5%;
+    text-shadow: 2px -3px rgb(199, 198, 194);
+}
+
+.fig {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em
+    }
+
+pre {
+    text-align: center;
+}
+
+.chap-par {
+    margin-left: 4%;
+    margin-right: 4%;
+    background-color: rgba(232, 220, 240, 0.726);
+    border-style: inset;
+    box-shadow: 10px 10px 5px lightblue;
+    
+}
+
+.headers{
+    display: none;
+    visibility: hidden;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 3% 3%;
+    border-style: outset;
+}
+
+.tl{
+    cursor: pointer;
+    text-align: center;
+}
+
+.tl:active + .headers {
+    display: block;
+    visibility: visible;
+}
+
+.footsies{
+    display: none;
+    visibility: hidden;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 3% 3%;
+    border-style: outset;
+}
+
+.tf{
+    cursor: pointer;
+    text-align: center;
+}
+
+.tf:active + .footsies {
+    display: block;
+    visibility: visible;
+}
+
+img {
+    box-shadow: 10px 10px 5px rgb(204, 130, 211);
+}
+
+

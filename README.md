@@ -12,6 +12,15 @@ Read this comic http://theoatmeal.com/comics/design_hell
 
 git clone https://github.com/abramhindle/CMPUT404-assignment-css-hell.git
 
+Part 1 Changes to HTML
+======================
+- Put each chapter paragraph into a div class called chap-par.
+- Put the footer content in a div class called footsies.
+- Put the header content ion a div class called headers.
+- Set the Project Gutenberg Title to a class called tl.
+- Set the footer div into a class called tf.
+
+
 License/Copyright
 =================
 

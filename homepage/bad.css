@@ -1,0 +1,72 @@
+#nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+    border-style: groove;
+    color: aqua;
+    
+}
+
+
+body{
+    color: white;
+    text-align: center;
+    background-image: url("https://www.sciencenews.org/wp-content/uploads/2014/03/cc_heic1404a_galaxy_feat_free.jpg");
+    opacity: 0.9;
+}
+
+#about {
+    margin-top: 5%;
+    margin-bottom: 2%;
+    border-style: dashed;
+    rotate: 25deg;
+    color: rgb(87, 50, 6);
+    
+}
+
+#history {
+    margin-top: 5%;
+    margin-bottom: 2%;
+    border-style: dotted;
+    rotate: -25deg;
+    color: rgb(76, 17, 83);
+}
+
+#skills {
+    margin-top: 5%;
+    margin-bottom: 2%;
+    border-style: groove;
+    rotate: 10deg;
+    color: rgb(16, 185, 16);
+}
+
+#important {
+    margin-top: 5%;
+    margin-bottom: 2%;
+    border-style: dotted;
+    rotate: -5deg;
+    color: rgb(35, 66, 202);
+}
+
+.about-paragraph {
+    margin-right: 35%;
+    color: white;
+}
+
+.history-paragraph {
+    margin-left: 10%;
+    color: white;
+}
+
+.skills-paragraph {
+    margin-right: 20%;
+    color: white;
+}
+
+#important-paragraph {
+    margin-right: -15%;
+    color: white;
+}
+#intro, .intro-paragraph {
+    color: white;
+}
