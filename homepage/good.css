@@ -1,8 +1,8 @@
 
 
 body {
-    background-color: #ebbcba !important;
-    text-align: left;
+    background-color: #26233a !important;
+    text-align: center;
     padding-left: 9%;
     
 }
@@ -11,18 +11,33 @@ body {
     display: inline-block;
     float: none;
     vertical-align: top;
-    background-color: #ebbcba !important;
+    background-color: #26233a !important;
+    color: #ebbcba !important;
     
 }
+
+a {
+    color: #ebbcba !important; 
+}
+
 img {
     border-radius: 50%;
     width: 10em;
     height: 10em;
 }
 
+#important-paragraph, .about-paragraph, .intro-paragraph, .skills-paragraph, .history-paragraph {
+    color: #ebbcba;
+    font-size: 20px;
+}
+
+#about, #skills, h1, #history, #important {
+    color: #ebbcba;
+    
+}
 
 
-#important, #important-paragraph {
+/* #important, #important-paragraph {
     text-align: right;
     margin-right: 30%;
     
@@ -31,24 +46,5 @@ img {
 #important-paragraph {
     margin-left: 50%;
     text-align: center;
-}
+} */
 
-.important-container {
-    height: 2px;
-    width: -2;
-    position: relative;
-    top: -400px;
-    right: -250px;
-    
-   
-    
-}
-
-#imp1, #imp2, #imp3 {
-    font-size: small;
-    text-align: center;
-    border-style: solid;
-    padding: 5px;
-    margin-top: 5%;
-    margin-bottom: 5%;
-}
